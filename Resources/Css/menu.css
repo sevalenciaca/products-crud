@@ -1,0 +1,153 @@
+h6{
+    color: #326562;
+    font-size: 16px;
+    text-align : justify;
+}
+
+h5{
+    color: #323265;
+    text-align: center;
+}
+
+h4{
+    color: #088182;
+    text-align: center;
+}
+
+
+.portada{
+    color: #323265;
+    text-align: justify;
+    font-size: small;
+}
+
+.titulo{
+    color: #323265;
+    text-align: center;
+}
+
+.parrafo{
+    color: #323265;
+    text-align: center;        
+}
+
+li:link { color: blue; }          /* Enlaces no visitados */
+li:visited { color: purple; }     /* Enlaces visitados */
+li:hover { background: rgba(203, 205, 206, 0.925); }  /* El usuario esta sobre el enlace */
+li:active { color: lime; }        /* Enlaces activos */
+
+#boton {
+    margin-left: 3px;
+    font-size:15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#8a8c8f;
+    border:0px;
+    width:100px;
+    height:35px;
+}
+
+#boton3 {
+    margin-left: 200px;
+    font-size:15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#074583;
+    border:0px;
+    width:150px;
+    height:35px;
+}
+
+#boton2 {
+    margin-left: 3px;
+    font-size:15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#074583;
+    border:0px;
+    width:150px;
+    height:35px;
+}
+
+#boton1 {
+    margin-left: 3px;
+    font-size:15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+}
+
+
+.ul_menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing:border-box;
+    width: 100%;
+}
+
+
+
+.ul_menu li {
+    list-style-type: none;
+    float: left;
+}
+
+
+
+.ul_menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.ul_menu li a:hover {
+    border-bottom: 1px solid #17a2b8;
+    background: #fff;
+    color: #007bff;
+    padding: 13px 16px;
+}
+
+
+.ul_menu li #menu_informes1 , #menu_informes2 {
+    border: none;
+    display: block;
+    background: #fff;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.ul_menu li #menu_informes3 , #menu_informes4, #menu_informes5{
+    border: none;
+    display: block;
+    background: #fff;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+
+
+.ul_menu li #menu_informes1:hover , #menu_informes2:hover , #menu_informes3:hover , #menu_informes4:hover, #menu_informes5:hover {
+    background: #fff;
+    color: #007bff;
+    padding: 13px 16px;
+    border-bottom: 1px solid #17a2b8;
+
+}
+
+.ingrese{
+    position: absolute;
+}
+
+nav.navbar {
+    background-color: #ecececee;
+}
+
